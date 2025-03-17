@@ -1,0 +1,50 @@
+
+@media screen and (max-width:1333px){
+    .ipt button{
+        width: 18%;
+    }
+}
+@media screen and (max-width:1084px){
+    .nav-bar{
+        margin-right: 5px;
+        flex: 25%;
+    }
+    nav ul{
+        margin-right: 5px;
+    }
+    nav ul li{
+        margin-right: 50px;
+    }
+    nav ul li a{
+        margin-right: 70px;
+    }
+}
+@media screen and (max-width:892px){
+    .nav-bar{
+        display: none;
+    }
+    .img-main img{
+        display: none;
+    }
+    .content-ipt{
+        width: 200%;
+    }
+}
+@media screen and (max-width:460px){
+    .ipt button{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:385px){
+    .tittle{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:333px){
+    .ipt input{
+        width: 70%;
+    }
+    .ipt button{
+        width: 20%;
+    }
+}
