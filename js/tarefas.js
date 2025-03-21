@@ -1,5 +1,6 @@
 let input = document.getElementById('ipt-tarefa');
 let lista = document.getElementById('lista-tarefas');
+
 let count = 0;
 
 function adicionarTarefa(){
@@ -20,6 +21,13 @@ function adicionarTarefa(){
 
 function concluirTarefa(count){
     let item = document.getElementById(count);
+    if(item.classList.contains("tarefa-concluida")){
+        item.classList.remove("tarefa-concluida");
+        lista.prepend(item);
+    }else{
+        item.classList.add("tarefa-concluida");
+        lista.appendChild(item);
+    }
     if(item.classList.contains("tarefa-concluida")){
         item.classList.remove("tarefa-concluida");
         lista.prepend(item);
